@@ -125,3 +125,40 @@
         transition: all 0.3s;
     }
 }
+
+
+@media (max-width: 390px) {
+    .Studies__grid {
+      grid-template-columns: 1fr;
+    }
+  
+    .Studies__item {
+      padding: 10px;
+      border-bottom: none;
+    }
+  
+    .Studies__item h3 {
+      font-size: 16px;
+    }
+  
+    .Studies__item p {
+      font-size: 12px;
+    }
+
+    .contact__grid {
+        grid-template-columns: 1fr;
+      }
+    
+      .contact__item {
+        padding: 10px;
+      }
+    
+      .contact__item h3 {
+        font-size: 16px;
+      }
+    
+      .contact__item p {
+        font-size: 12px;
+      }
+    
+  }
